@@ -1,0 +1,21 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(65, 35, 4);
+    background-color: rgb(65, 35, 4); 
+}
+.controls {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+.time-range {
+    color: aliceblue;
+    font-size: large;
+    padding: 15px;
+}
