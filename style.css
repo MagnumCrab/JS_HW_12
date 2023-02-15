@@ -14,6 +14,12 @@
     align-items: center; 
     justify-content: space-around;
 }
+.fa-play:hover {
+    color: #3a7999;
+}
+.fa-pause:hover {
+    color: #3a7999;
+}
 .time-range {
     color: aliceblue;
     font-size: large;
