@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Seminar_12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/39d9b5c200.js" crossorigin="anonymous"></script>
+    <div class="player">
+        <video loop height="100%" width="100%" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"></video>
+        
+        <div class="controls">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+            <input type="range" class="timing" value="0" min="0" max="15" step="0.001">
+            <input type="range" class="volume" min="0" max="1" step="0.01">
+            <div class="time-range">
+                <span class="currentTime">00:00</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
